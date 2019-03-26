@@ -2,5 +2,5 @@ from django.conf.urls import url
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^', view.test),   
+    url(r'^', views.test),   
 ]
